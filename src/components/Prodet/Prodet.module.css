@@ -1,0 +1,9 @@
+
+.container {
+  max-width: 80vw;
+  min-height: 100vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}

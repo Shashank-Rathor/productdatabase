@@ -1,0 +1,20 @@
+
+.heading{
+  font-family: 'Acme', sans-serif;
+  text-align: center;
+  padding-bottom: 70px;
+}
+.image{
+  height: 400px;
+  width: 400px;
+}
+h4 {
+  font-family: 'Acme', sans-serif;
+    margin-top: 40px;
+}
+.btn{
+  position: absolute;
+  width: 30%;
+  right: 0;
+  bottom: 0;
+}

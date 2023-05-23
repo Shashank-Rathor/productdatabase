@@ -1,0 +1,122 @@
+h2 {
+  margin-bottom: 2rem;
+  font-weight: 500;
+}
+.ui_form {
+  width: 30rem;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  overflow: hidden;
+}
+.results_add {
+  width: 100rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.wave {
+  width: 2200px;
+  height: 2400px;
+  position: absolute;
+  top: 130%;
+  left: 0;
+  margin-left: -500px;
+  margin-top: -500px;
+  border-radius: 35%;
+      background-color: #D9AFD9;
+background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+
+  animation: wave 14s infinite linear;
+}
+
+@keyframes wave {
+  from { transform: rotate(0deg);}
+  from { transform: rotate(360deg);}
+}
+.ui_form input {
+  margin-bottom: 2rem;
+  padding: 5px;
+  border: 2px solid gray;
+  outline: none;
+  border-radius: 5px;
+  width: 30vw;
+}
+.sel{
+  border: 2px solid gray;
+  outline: none;
+  border-radius: 5px;
+  width: 30vw;
+}
+
+input[type="submit"] {
+  padding: 0.5rem;
+  width: 30vw;
+  cursor: pointer;
+  background: linear-gradient(to right, rgb(0, 238, 238), rgb(0, 190, 204));
+  color: white;
+  font-weight: 700;
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  transition: all 0.2s ease-in;
+}
+.btn{
+  padding: 0.5rem;
+  width: 30vw;
+  margin-bottom: 1vw;
+  cursor: pointer;
+  background: linear-gradient(to right, rgb(0, 238, 238), rgb(0, 190, 204));
+  color: white;
+  font-weight: 700;
+  font-size: 1.1rem;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  transition: all 0.2s ease-in;
+}
+.btn:hover{
+  background: linear-gradient(to right, rgb(0, 168, 197), rgb(2, 98, 224));
+}
+input[type="submit"]:hover {
+  background: linear-gradient(to right, rgb(0, 168, 197), rgb(2, 98, 224));
+}
+.del{
+  width: 30px;
+}
+.formControl{
+  width: 400px;
+  margin-bottom: 20px;
+}
+.prev{
+  padding: 0;
+  background: black;
+  width: 55%;
+  border-radius: 5px;
+}
+.describe{
+  width: 29rem;
+}
+
+@media only screen and (max-width: 479px) {
+  .formControl{
+    width: 35%;
+    margin-bottom: 20px;
+  }
+  .describe{
+    width: 8rem;
+  }
+}

@@ -1,0 +1,17 @@
+ul {
+    list-style: none;
+}
+.paper {
+  margin-bottom: 20px;
+  width: 400px;
+}
+.lin{
+  position: absolute;
+  right: 5%;
+}
+.title {
+  text-align: center;
+  font-family: 'Alfa Slab One';
+    margin-bottom: 40px;
+    font-size: 30px;
+}
